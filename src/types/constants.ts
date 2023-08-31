@@ -4,48 +4,58 @@ export const spells: InvokeSpells = {
   'qqq': {
     name: 'Cold Snap',
     description: '',
+    icon: require('../assets/invoker_cold_snap.png'),
   },
   'qqw': {
     name: 'Ghost Walk',
     description: '',
+    icon: require('../assets/invoker_cold_snap.png'),
   },
   'qqe': {
     name: 'Ice Wall',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_ice_wall.png'),
   },
   'qwe': {
     name: 'Deafening Blast',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_deafening_blast.png'),
   },
   'www': {
     name: 'EMP',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_emp.png'),
   },
   'wwq': {
     name: 'Tornado',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_tornado.png'),
   },
   'wwe': {
     name: 'Alacrity',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_alacrity.png'),
   },
   'eeq': {
     name: 'Forge Spirit',
-    description: ''
+    description: '',
+    icon: require('../assets/invoker_forge_spirit.png'),
   },
   'eew': {
     name: 'Chaos Meteor',
     description: '',
+    icon: require('../assets/invoker_chaos_meteor.png'),
   },
   'eee': {
     name: 'Sun Strike',
     description: '',
+    icon: require('../assets/invoker_sun_strike.png'),
   }
 }
 
 export const defaultKeyBindings = ['q', 'w', 'e', 'r']
 
-export const initialSpells: InvokeSpell[] = [
+export const INITIAL_SPELLS: InvokeSpell[] = [
   {
     name: 'Quas',
     description: `Allows manipulation of ice elements. Passively grants +1.0 Strength per level. Each Quas instance imbues Invoker's spells with Spell Lifesteal.`,
