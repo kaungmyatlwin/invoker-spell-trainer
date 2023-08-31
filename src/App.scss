@@ -1,5 +1,9 @@
 .App {
-  &__SpellWrapper {
-
+  max-width: 650px;
+  margin: 0 auto;
+  &__SpellButtonWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
